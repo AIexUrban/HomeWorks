@@ -4,7 +4,7 @@ print('Name: ', name)
 age = 25
 print('Age: ',age)
 
-age=age+10
+age = age + 10
 print('New age: ', age)
 
 is_student = True
