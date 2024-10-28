@@ -14,6 +14,6 @@ mutable_list= list (immutable_var) # скопировал данные из ко
 
 mutable_list [1:3] = [5, 'Urban'] # заменяем элементы списка
 mutable_list.append('Hello!') # добавили элемент в список
-print('Скопированный с кортежа, и измененный список: ', mutable_list)
+print('Скопированный из кортежа, и измененный список: ', mutable_list)
 
 #END
