@@ -11,3 +11,4 @@ for i in range(1, len(numbers)):
 
 print(primes)
 print(not_primes)
+#END
