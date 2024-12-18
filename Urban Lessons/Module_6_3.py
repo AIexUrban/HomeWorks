@@ -54,7 +54,7 @@ class Duckbill(PoisonousAnimal, Bird, AquaticAnimal):
 
 
 db = Duckbill(10)
-
+print(Duckbill.mro())
 print(db.live)
 print(db.beak)
 
