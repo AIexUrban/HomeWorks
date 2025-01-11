@@ -1,13 +1,13 @@
 # Задача "Потоковая запись в файлы"
 import threading
-import time
+from time import sleep
 from datetime import datetime
 
 def wite_words(word_count, file_name):
     with open(file_name, 'w', encoding='utf-8') as f:
         for i in range(word_count):
             f.write(f'Какое-то слово № {i+1}\n')
-            time.sleep(0.1)
+            sleep(0.1)
         print(f'Завершилась запись в файл{file_name}')
 
 start_time = datetime.now()
